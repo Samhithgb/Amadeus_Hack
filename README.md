@@ -23,4 +23,4 @@ Samhith G B https://github.com/Samhithgb
 
 Saandeepa T N https://github.com/saandeepatn
 
-Prabhjeet Singh Chawla http://githuub.com/prabh13
+Prabhjeet Singh Chawla http://github.com/prabh13
