@@ -5,7 +5,7 @@ An android application which makes use of Amadeus APIs and Google Places APIs to
 Used Firebase as the backend and incorporated forum and chat features.
 App developed by us in the Amadeus Mavericks hackathon (incomplete)
 
-#Team Memebers:
+#Team Members:
 
 Samhith G B https://github.com/samhithgb
 
