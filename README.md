@@ -19,7 +19,7 @@ App developed by us in the Amadeus Mavericks hackathon (incomplete)
 
 #Team Members:
 
-Samhith G B https://github.com/samhithgb
+Samhith G B https://github.com/Samhithgb
 
 Saandeepa T N https://github.com/saandeepatn
 
