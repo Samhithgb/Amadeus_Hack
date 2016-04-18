@@ -6,6 +6,10 @@ Used Firebase as the backend and incorporated forum and chat features.
 App developed by us in the Amadeus Mavericks hackathon (incomplete)
 #Screenshots
 ![Landing page](https://github.com/Samhithgb/Amadeus_Hack/blob/master/1.png "First screen")
+![Landing page](https://github.com/Samhithgb/Amadeus_Hack/blob/master/1.png "First screen")
+![Landing page](https://github.com/Samhithgb/Amadeus_Hack/blob/master/1.png "First screen")
+![Landing page](https://github.com/Samhithgb/Amadeus_Hack/blob/master/1.png "First screen")
+![Landing page](https://github.com/Samhithgb/Amadeus_Hack/blob/master/1.png "First screen")
 #Team Members:
 
 Samhith G B https://github.com/samhithgb
