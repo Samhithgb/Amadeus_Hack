@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center"
+    android:id="@+id/rlayout"
+    tools:context="com.samhith.taylormade.SignUp">
+
+    <include android:id="@+id/signappbar" layout="@layout/app_bar"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:hint="Email"
+        android:gravity="center"
+        android:id="@+id/editText"
+
+        android:layout_alignStart="@+id/editText3"
+        android:layout_above="@+id/editText3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:hint="Password"
+        android:id="@+id/editText3"
+        android:layout_above="@+id/editText4"
+        android:layout_alignStart="@+id/editText4" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Re-Enter Password"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/editText4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter your Username"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_below="@+id/editText4"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/username"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter Your City"
+        android:ems="10"
+        android:layout_below="@+id/username"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/city"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Expert?(1/0)"
+        android:ems="10"
+        android:layout_below="@+id/city"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textColorHint="#FFFFFF"
+        android:id="@+id/expert"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        custom:pb_colorComplete="@color/green_complete"
+        custom:pb_colorNormal="@color/colorPrimary"
+        custom:pb_colorPressed="@color/blue_pressed"
+        custom:pb_colorProgress="@color/purple_progress"
+        custom:pb_textComplete="Success"
+        custom:pb_textProgress="Loading"
+        custom:pb_textError="Error"
+        custom:pb_colorError="@color/red_error"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>

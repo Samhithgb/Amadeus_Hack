@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TravelBuddy</string>
+    <string-array name="Drawer_Elements">
+        <item>Profile</item>
+        <item>Booking</item>
+        <item>Contact Us</item>
+        <item>Log Out</item>
+        <item>About Us</item>
+
+    </string-array>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string-array name="TabTitle1">
+
+        <item>Plan Immediately</item>
+        <item>Plan For Later</item>
+
+    </string-array>
+
+</resources>
